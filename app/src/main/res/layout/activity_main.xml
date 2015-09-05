@@ -6,6 +6,35 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/walking_button"
+            android:text="@string/walking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"/>
+
+        <Button
+            android:id="@+id/running_button"
+            android:text="@string/running"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"/>
+
+        <Button
+            android:id="@+id/cycling_button"
+            android:text="@string/cycling"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"/>
+
+
+        </LinearLayout>
+
     <com.example.android.customviewp2.LineChartView
         android:id="@+id/linechart"
         android:layout_width="match_parent"
